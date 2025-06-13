@@ -34,7 +34,7 @@ export function Header() {
       </a>
       <a href="#contact" className="text-white px-4 py-2 rounded-full flex items-center text-2xl font-medium transition-colors" style={{ background: 'linear-gradient(to right, #29015A, #FF5003)' }}>
         Contact Me
-        <ArrowRightIcon className="ml-1 w-4 h-4" />
+        <img src="/arrow.svg" alt="arrow" className="ml-1 w-4 h-4" />
       </a>
     </div>
   </header>;

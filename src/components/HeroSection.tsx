@@ -36,7 +36,8 @@ export function HeroSection() {
           </a>
           <a href="#projects" className="flex items-center space-x-2 text-white bg-purple-900/50 hover:bg-purple-900/70 px-6 py-3 rounded-full font-medium transition-colors" style={{ background: 'linear-gradient(to right, #29015A, #FF5003)' }}>
             <span>See all projects</span>
-            <ArrowRightIcon className="w-4 h-4" />
+            <img src="/arrow.svg" alt="arrow" className="ml-1 w-4 h-4" />
+
           </a>
         </div>
       </div>
