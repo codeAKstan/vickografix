@@ -18,9 +18,11 @@ export function Footer() {
         <a href="#contact" className="inline-flex items-center text-gray-300 hover:text-white transition-colors">
           Reach out via mail
         </a>
-        <a href="#projects" className="inline-flex items-center bg-purple-900/50 hover:bg-purple-900/70 text-white px-6 py-2 rounded-full transition-colors">
-          See all projects <ArrowRightIcon className="ml-1 w-4 h-4" />
-        </a>
+         <a href="#projects" className="flex items-center space-x-2 text-white bg-purple-900/50 hover:bg-purple-900/70 px-6 py-3 rounded-full font-medium transition-colors" style={{ background: 'linear-gradient(to right, #29015A, #FF5003)' }}>
+            <span>See all projects</span>
+            <img src="/arrow.svg" alt="arrow" className="ml-1 w-4 h-4" />
+
+          </a>
       </div>
     </footer>;
 }

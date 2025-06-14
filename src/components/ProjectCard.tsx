@@ -27,8 +27,11 @@ export function ProjectCard({
                 {skill}
               </span>)}
           </div>
-          <a href="#view-project" className="inline-flex items-center text-sm bg-purple-900/50 hover:bg-purple-900/70 text-white px-4 py-2 rounded-full transition-colors">
-            View project <ArrowRightIcon className="ml-1 w-4 h-4" />
+       
+           <a href="#projects" className="inline-flex items-center text-sm bg-purple-900/50 hover:bg-purple-900/70 px-4 py-3 rounded-full font-medium transition-colors" style={{ background: 'linear-gradient(to right, #29015A, #FF5003)' }}>
+            <span>View project</span>
+            <img src="/arrow.svg" alt="arrow" className="ml-1 w-4 h-4" />
+
           </a>
         </div>
         <div className="md:w-2/3">
