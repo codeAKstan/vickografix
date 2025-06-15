@@ -23,7 +23,7 @@ export function ProjectCard({
           </div>
           <p className="text-gray-400 mb-4">{description}</p>
           <div className="flex flex-wrap gap-2 mb-6">
-            {skills.map((skill, index) => <span key={index} className="bg-purple-900/50 text-purple-300 px-4 py-1 rounded-full text-xs">
+            {skills.map((skill, index) => <span key={index} className="text-purple-300 px-4 py-1 rounded-full text-xs" style={{ background: 'linear-gradient(to right, #29015A, #FF5003)' }}>
                 {skill}
               </span>)}
           </div>
